@@ -1,0 +1,35 @@
+namespace GICTS.Data;
+
+public enum ClubTypeEnum
+{
+	Wood1,
+	Wood2,
+	Wood3,
+	Wood4,
+	Wood5,
+	Wood6,
+	Wood7,
+	Wood8,
+	Wood9,
+	Hybrid2,
+	Hybrid3,
+	Hybrid4,
+	Hybrid5,
+	Hybrid6,
+	Hybrid7,
+	Iron1,
+	Iron2,
+	Iron3,
+	Iron4,
+	Iron5,
+	Iron6,
+	Iron7,
+	Iron8,
+	Iron9,
+	PitchingWedge,
+	GapWedge,
+	SandWedge,
+	LobWedge,
+	Putter,
+	Unknow
+}

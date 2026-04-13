@@ -1,0 +1,12 @@
+namespace GICTS.Data;
+
+public enum ClubNatureEnum
+{
+	IRON_UNKNOWN,
+	IRON_WEDGE,
+	WOOD_FAIRWAY_BIG,
+	WOOD_FAIRWAY_SMALL,
+	WOOD_DRIVER,
+	WOOD_UNKNOWN,
+	PUTTER
+}

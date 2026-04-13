@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>IDRAAutoCalibration</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="idra-20icon.ico" />
+    <None Remove="images/redx.png" />
+    <None Remove="view/settings.baml" />
+    <None Remove="images/inprogress.png" />
+    <None Remove="images/greencheck.png" />
+    <None Remove="view/distortionviewer.baml" />
+    <None Remove="view/touchnumerickeypad.baml" />
+    <None Remove="view/mainwindow.baml" />
+    <None Remove="sXB81eHShPN5ldbGCQ.jgrryBSjwdoLkvq2Lx" />
+    <EmbeddedResource Include="idra-20icon.ico" LogicalName="idra%20icon.ico" />
+    <EmbeddedResource Include="images/redx.png" LogicalName="images/redx.png" />
+    <EmbeddedResource Include="view/settings.baml" LogicalName="view/settings.baml" />
+    <EmbeddedResource Include="images/inprogress.png" LogicalName="images/inprogress.png" />
+    <EmbeddedResource Include="images/greencheck.png" LogicalName="images/greencheck.png" />
+    <EmbeddedResource Include="view/distortionviewer.baml" LogicalName="view/distortionviewer.baml" />
+    <EmbeddedResource Include="view/touchnumerickeypad.baml" LogicalName="view/touchnumerickeypad.baml" />
+    <EmbeddedResource Include="view/mainwindow.baml" LogicalName="view/mainwindow.baml" />
+    <EmbeddedResource Include="sXB81eHShPN5ldbGCQ.jgrryBSjwdoLkvq2Lx" LogicalName="sXB81eHShPN5ldbGCQ.jgrryBSjwdoLkvq2Lx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="CommunityToolkit.Mvvm">
+      <HintPath>Sim Sports Corporation/IDRA Auto-Calibration/CommunityToolkit.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV">
+      <HintPath>Sim Sports Corporation/IDRA Auto-Calibration/Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="GIToolkit">
+      <HintPath>Sim Sports Corporation/IDRA Auto-Calibration/GIToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="MvCameraControl.Net">
+      <HintPath>Sim Sports Corporation/IDRA Auto-Calibration/MvCameraControl.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

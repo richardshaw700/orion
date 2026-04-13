@@ -1,0 +1,169 @@
+Program: GolfInLib.dll
+Matched functions: 166
+
+180009cb0	GolfIn::Detection::MLClubDetection::extractClubCentroid	name:club
+18000d080	Libraries::CamerasManager::onInit	string:loadCamera
+1800264d0	Libraries::Core::canSaveShotData	name:saveShot
+180027250	Libraries::Core::computeClubFrameSkipBasedBallSpeed	name:club
+18002e2d0	Libraries::Core::nearestPointDistanceAtClubElbow	name:club
+180085190	GolfIn::YoloClubSegmentation::YoloClubSegmentation	name:club
+180085380	GolfIn::YoloClubSegmentation::loadModel	name:club
+180085460	GolfIn::YoloClubSegmentation::predict	name:club
+180085490	GolfIn::YoloClubSegmentation::~YoloClubSegmentation	name:club
+180085510	GolfIn::Detection::ClubDetectionInput::ClubDetectionInput	name:club
+180085760	GolfIn::Detection::ClubDetectionInput::validateInput	name:club
+1800857e0	GolfIn::Detection::ClubDetectionInput::ClubDetectionInput	name:club
+180085890	GolfIn::Detection::ClubDetectionInput::~ClubDetectionInput	name:club
+1800858c0	GolfIn::Detection::ClubDetectionInput::ClubDetectionInput	name:club
+180085970	GolfIn::Detection::ClubDetectionInput::ClubDetectionInput	name:club
+180085a50	GolfIn::Detection::ClubDetectionInput::operator=	name:club
+180085b00	GolfIn::Detection::ClubDetectionInput::operator=	name:club
+180085bb0	GolfIn::Detection::ClubDetectionBallImpactParams::ClubDetectionBallImpactParams	name:club
+180085cb0	GolfIn::Detection::ClubDetectionBallImpactParams::~ClubDetectionBallImpactParams	name:club
+180085cc0	GolfIn::Detection::ClubDetectionBallImpactParams::ClubDetectionBallImpactParams	name:club
+180085d20	GolfIn::Detection::ClubDetectionBallImpactParams::ClubDetectionBallImpactParams	name:club
+180085d80	GolfIn::Detection::ClubDetectionBallImpactParams::operator=	name:club
+180085de0	GolfIn::Detection::ClubDetectionBallImpactParams::operator=	name:club
+180085e40	GolfIn::Detection::ClubDetection::ClubDetection	name:club
+180085fa0	GolfIn::Detection::ClubDetection::ClubDetection	name:club
+180086110	GolfIn::Detection::ClubDetection::baseConstructor	name:club; string:saveShot
+180086450	GolfIn::Detection::ClubDetection::getClubCentroid	name:club
+180086460	GolfIn::Detection::ClubDetection::getClubBounding	name:club
+180086470	GolfIn::Detection::ClubDetection::getClubMask	name:club
+180086490	GolfIn::Detection::ClubDetection::getImgIdx	name:club
+1800864a0	GolfIn::Detection::ClubDetection::getClubType	name:club
+1800864b0	GolfIn::Detection::ClubDetection::getWhiteRatio	name:club
+1800864c0	GolfIn::Detection::ClubDetection::getBallImpactPositionPercentage	name:club
+1800864d0	GolfIn::Detection::ClubDetection::getHasFallBackPreviousAlgo	name:club
+1800864e0	GolfIn::Detection::ClubDetection::setHasFallBackPreviousAlgo	name:club
+1800864f0	GolfIn::Detection::ClubDetection::isDetectionValid	name:club
+180086580	GolfIn::Detection::ClubDetection::ClubTypeToString	name:club
+180086730	GolfIn::Detection::ClubDetection::getClubCategory	name:club
+180086780	GolfIn::Detection::ClubDetection::~ClubDetection	name:club
+180086830	GolfIn::Detection::ClubDetection::ClubDetection	name:club
+1800869f0	GolfIn::Detection::MLClubDetection::MLClubDetection	name:club
+180086b60	GolfIn::Detection::MLClubDetection::~MLClubDetection	name:club
+180086c00	GolfIn::Detection::MLClubDetection::MLClubDetection	name:club
+180086cb0	GolfIn::Detection::MLClubDetection::MLClubDetection	name:club
+180086de0	GolfIn::Detection::ClubDetection::performDetectionPipeline	name:club
+180086f40	GolfIn::Detection::MLClubDetection::club_best_candidate_near_ball	name:club
+180087130	GolfIn::Detection::MLClubDetection::performDetectionPipeline	name:club
+1800872b0	FUN_1800872b0	string:Club.Detection
+180087880	GolfIn::Detection::ClubDetection::extractEstimatedBoundingRelativeToBall	name:club
+1800879b0	GolfIn::Detection::ClubDetection::extractMaskMOG2	name:club
+180087f70	GolfIn::Detection::ClubDetection::extractMaskHED	name:club
+180088380	GolfIn::Detection::ClubDetection::extractMaskREMBG	name:club; string:Club.Detection
+180088c60	GolfIn::Detection::ClubDetection::refineClubMask	name:club
+180089010	GolfIn::Detection::ClubDetection::extractClubCentroid	name:club
+180089070	GolfIn::Detection::ClubDetection::removeClubShaft	name:club
+180089e70	GolfIn::Detection::ClubDetection::saveMaskResults	name:club
+18008a4c0	GolfIn::Detection::MLClubDetection::saveMaskResults	name:club
+18008a8e0	GolfIn::Detection::ClubDetection::saveImageMaskAreaSquareMM	name:club
+18008ac20	GolfIn::Detection::ClubDetection::computeBallImpact	name:club; string:Ball.Impact.On.Club
+18008bc70	GolfIn::Detection::MLClubDetection::computeBallImpact	name:club; string:Ball.Impact.On.Club
+18008c910	GolfIn::Detection::ClubDetection::computeClubType	name:club; string:Club.Detection
+18008cd10	GolfIn::Detection::MLClubDetection::computeClubType	name:club; string:Club.Detection
+18008ef40	GolfIn::YoloClubSegmentation::letter_box	name:club
+18008f290	GolfIn::YoloClubSegmentation::get_mask	name:club
+18008ff40	GolfIn::YoloClubSegmentation::predict	name:club
+18009ec50	Libraries::HikrobotCircularBuffer::Cameras::onLoadCameraMap	name:loadCamera
+1800a4400	GolfIn::ClubData::ClubData	name:club
+1800a4630	GolfIn::Club::Club	name:club
+1800a4af0	GolfIn::Interface::setCameraCallback	name:setCameraCallback
+1800a4b30	GolfIn::Interface::resetCameraCallback	name:setCameraCallback
+1800a4fe0	GolfIn::Interface::OnNewShot	name:onNewShot
+1800a5080	GolfIn::Interface::OnComputeClubFace	name:club
+1800a5150	GolfIn::Interface::OnGetSpinConfig	name:spin
+1800a5f20	GolfIn::Ball::built	string:Ball.Build
+1800a8510	GolfIn::ClubData::ClubData	name:club
+1800a86b0	GolfIn::ClubData::~ClubData	name:club
+1800a8ae0	GolfIn::ClubData::clear	name:club
+1800a8b90	GolfIn::ClubData::haveBuild	name:club
+1800a8bc0	GolfIn::ClubData::clear_built	name:club
+1800a8c70	GolfIn::ClubData::getDetectionPoint	name:club
+1800a8d70	GolfIn::ClubData::getDetectionIndex	name:club
+1800a8e60	GolfIn::ClubData::prebuilt	name:club
+1800a8ec0	GolfIn::ClubData::built	name:club; string:Club.Build
+1800a9740	GolfIn::ClubData::getTrajectoryPoint	name:club
+1800a9820	GolfIn::Club::Club	name:club
+1800a9a30	GolfIn::Club::~Club	name:club
+1800a9bf0	GolfIn::Club::clear	name:club
+1800a9cb0	GolfIn::Club::clear_built	name:club
+1800a9d10	GolfIn::Club::haveBuild	name:club
+1800a9d60	GolfIn::Club::setPlayerHanded	name:club
+1800a9e90	GolfIn::Club::tooglePlayerHanded	name:club
+1800a9fc0	GolfIn::Club::getPlayerHanded	name:club
+1800a9fe0	GolfIn::Club::built	name:club; string:Club.Build
+1800aca70	GolfIn::Club::calculateClubspeedFactorBasedROIHeight	name:club
+1800ad010	GolfIn::Club::projectionPolyfit	name:club
+1800ad2f0	GolfIn::Club::projectionPolyfit2D	name:club
+1800ad500	GolfIn::Club::projection	name:club
+1800b1da0	GolfIn::Shot::exportPostShotVideoAndReturnImpactFrame	name:exportPostShot; string:exportPostShot
+1800b29f0	GolfIn::Shot::drawClubData	name:club
+1800bb8b0	GolfIn::Interface::loadYOLOClubSegmentation	name:club
+1800bbe60	GolfIn::Interface::loadClubClassificationMLModel	name:club
+1800bc890	GolfIn::Interface::loadSpinPredictor	name:spin
+1800bd850	GolfIn::Interface::fillConfigurationFileWithDefaultValues	string:Club.Detection; string:exportPostShot; string:saveShot
+1800c0260	GolfIn::Interface::updateCanSaveShotData	name:saveShot; string:saveShot
+1800c2ca0	GolfIn::Interface::loadCamerasInformation	name:loadCamera
+1800dae80	GolfIn::Interface::waitForShot	name:waitForShot; string:waitForShot
+1800dbca0	FUN_1800dbca0	string:Wait.For.Shot; string:Wait.For.Shot,exportPostShot; string:Wait.For.Shot,saveShot; string:Wait.For.Shot,waitForShot; string:exportPostShot
+1800ddab0	GolfIn::Interface::resetWaitForShot	name:waitForShot
+1800de860	GolfIn::Interface::computeBallImpactOnClub	name:club; string:Ball.Impact.On.Club
+1800e00d0	GolfIn::Interface::exportPostShot	name:exportPostShot
+1800e0600	GolfIn::Interface::saveShot	name:saveShot
+1800e09d0	GolfIn::Interface::getAngleFromVector	string:Ball.Build
+1800e0db0	GolfIn::Interface::getClubPathAngle2D	name:club
+1800e0f30	GolfIn::Interface::getClubPathAngle	name:club
+1800e0fe0	GolfIn::Interface::getClubPathAngle	name:club
+1800e1470	GolfIn::Interface::commonLoadCamera	name:loadCamera; string:loadCamera
+1800e2cb0	GolfIn::Interface::loadCamera	name:loadCamera; string:loadCamera
+1800e3040	GolfIn::Interface::startBoardFrameCamera	string:StartBoardFrameCamera
+1800e4c80	GolfIn::Interface::startSingleFrameCamera	string:StartSingleFrameCamera
+1800e95d0	GolfIn::Interface::extractBallClub	name:club; name:extractBallClub
+1800e9640	GolfIn::Interface::builtBallClub	name:club
+1800e96e0	GolfIn::Interface::builtBallClub	name:club
+1800e9780	GolfIn::Interface::builtBallClub	name:club
+1800e97c0	GolfIn::Interface::extractBallClub	name:club; name:extractBallClub; string:Extract.BallClub; string:ExtractBallClub
+1800eb870	GolfIn::Interface::extractClub	name:club
+1800ebac0	GolfIn::Interface::compute_back_and_side_spin	name:spin; string:BackSpinSideSpinInference
+1800ec8f0	GolfIn::Interface::ballHasMoveEnough	name:ballHasMoveEnough
+1800f06b0	GolfIn::Interface::findBall_geometric	string:waitForShot
+1800f1710	GolfIn::Interface::extractClubTracking_OpticalFlow	name:club; string:Club.Detection
+1800f2d60	GolfIn::Interface::extractClubByCamera_SegmentationClubTemplateContinue	name:club; string:Club.Detection
+1800f5f30	GolfIn::Interface::_extractClubTracking	name:club
+18011db40	FUN_18011db40	string:Club.Detection
+180123df0	CSharp_ShotStatusData_clubType_set	name:club
+180123e00	CSharp_ShotStatusData_clubType_get	name:club
+180123ea0	CSharp_GICTSShotData_ball_back_spin__set	name:spin
+180123eb0	CSharp_GICTSShotData_ball_back_spin__get	name:spin
+180123ec0	CSharp_GICTSShotData_ball_side_spin__set	name:spin
+180123ed0	CSharp_GICTSShotData_ball_side_spin__get	name:spin
+180123ee0	CSharp_GICTSShotData_ball_spin_axis__set	name:spin
+180123ef0	CSharp_GICTSShotData_ball_spin_axis__get	name:spin
+180123f00	CSharp_GICTSShotData_ball_total_spin__set	name:spin
+180123f10	CSharp_GICTSShotData_ball_total_spin__get	name:spin
+180124030	CSharp_GICTSShotData_club_attack_angle__set	name:club
+180124040	CSharp_GICTSShotData_club_attack_angle__get	name:club
+180124050	CSharp_GICTSShotData_club_path__set	name:club
+180124060	CSharp_GICTSShotData_club_path__get	name:club
+180124070	CSharp_GICTSShotData_club_speed__set	name:club
+180124080	CSharp_GICTSShotData_club_speed__get	name:club
+180124090	CSharp_GICTSShotData_club_ball_impact_percent__set	name:club
+1801240a0	CSharp_GICTSShotData_club_ball_impact_percent__get	name:club
+180124110	CSharp_GICTSShotData_clubType_set	name:club
+180124120	CSharp_GICTSShotData_clubType_get	name:club
+180124490	CSharp_CameraCallback_OnNewShot	name:onNewShot
+1801245e0	CSharp_CameraCallback_OnNewShotSwigExplicitCameraCallback	name:onNewShot
+180124730	CSharp_CameraCallback_OnComputeClubFace	name:club
+180124890	CSharp_CameraCallback_OnComputeClubFaceSwigExplicitCameraCallback	name:club
+1801249e0	CSharp_CameraCallback_OnGetSpinConfig	name:spin
+180124b10	CSharp_CameraCallback_OnGetSpinConfigSwigExplicitCameraCallback	name:spin
+180125660	CSharp_LightInterface_loadMLModel	name:loadMLModel
+1801256d0	CSharp_LightInterface_setCameraCallback	name:setCameraCallback
+180125710	CSharp_LightInterface_resetCameraCallback	name:setCameraCallback
+180125770	CSharp_LightInterface_OnNewShot	name:onNewShot
+180144f6e	FUN_180144f6e	string:Wait.For.Shot
+180145828	FUN_180145828	string:exportPostShot
+18014591b	FUN_18014591b	string:exportPostShot
+1801475dc	FUN_1801475dc	string:BackSpinSideSpinInference

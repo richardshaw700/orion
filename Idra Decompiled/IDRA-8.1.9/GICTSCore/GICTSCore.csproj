@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>GICTSCore</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="s4cIuJYUvcArofBEnV.lOToygMpgN0wJI5J4W" />
+    <EmbeddedResource Include="s4cIuJYUvcArofBEnV.lOToygMpgN0wJI5J4W" LogicalName="s4cIuJYUvcArofBEnV.lOToygMpgN0wJI5J4W" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CommunityToolkit.Mvvm">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/CommunityToolkit.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="GIToolkit">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/GIToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="IDRASharedModels">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/IDRASharedModels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.EventLog">
+      <HintPath>../../../../.dotnet/shared/Microsoft.AspNetCore.App/8.0.25/System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ML.Data">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.ML.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ML.Core">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.ML.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ML.DataView">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.ML.DataView.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ML.Transforms">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.ML.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Plotly.NET">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Plotly.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicObj">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/DynamicObj.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ML.FastTree">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.ML.FastTree.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="NvAPIWrapper">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/NvAPIWrapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

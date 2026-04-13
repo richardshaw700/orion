@@ -1,0 +1,160 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>GolfInLauncher</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="sdCns1DhLbGpgK8YAD.pmfTOSXhcgAcLg2AhX" />
+    <None Remove="views/supportwindow.baml" />
+    <None Remove="assets/restartbuttonicon.png" />
+    <None Remove="assets/logozonegolfinblackbg.png" />
+    <None Remove="assets/e6connect.png" />
+    <None Remove="assets/cornhole.png" />
+    <None Remove="assets/homebg.jpg" />
+    <None Remove="assets/e6golf.png" />
+    <None Remove="assets/bg.jpg" />
+    <None Remove="views/wifipanel.baml" />
+    <None Remove="assets/golf.png" />
+    <None Remove="assets/e6golf_zonegolfin.png" />
+    <None Remove="logolauncherin.ico" />
+    <None Remove="assets/bowling.png" />
+    <None Remove="views/mainwindow.baml" />
+    <None Remove="assets/logozonegolfinwhitebg.png" />
+    <None Remove="assets/idra_zonegolfin.png" />
+    <None Remove="assets/e6connectlogozone.png" />
+    <None Remove="assets/baseball3.png" />
+    <None Remove="views/passwordwindow.baml" />
+    <None Remove="assets/idra_e6connect.png" />
+    <None Remove="views/spinnerwindow.baml" />
+    <None Remove="assets/golfin.png" />
+    <None Remove="assets/e6connect_zonegolfin.png" />
+    <None Remove="views/settingswindow.baml" />
+    <None Remove="assets/wildwest2.png" />
+    <None Remove="views/containerview.baml" />
+    <None Remove="assets/software_updates.png" />
+    <None Remove="assets/fieldgoalfrenzy.png" />
+    <None Remove="assets/wildhunt.png" />
+    <None Remove="assets/insideheat.png" />
+    <None Remove="assets/soccer.png" />
+    <None Remove="views/softwareupdate.baml" />
+    <None Remove="assets/footgolf.png" />
+    <None Remove="views/golfinwebviewer.baml" />
+    <None Remove="views/touchnumerickeypad.baml" />
+    <None Remove="assets/e6connectlogo.png" />
+    <None Remove="views/maintenancewindow.baml" />
+    <None Remove="assets/baseball.png" />
+    <None Remove="assets/idra.png" />
+    <None Remove="assets/golfinlauncher.png" />
+    <None Remove="assets/monstermayhem.png" />
+    <None Remove="assets/hockey.png" />
+    <None Remove="readme.txt" />
+    <None Remove="assets/dodgeball.png" />
+    <None Remove="assets/support.png" />
+    <None Remove="assets/hoops.png" />
+    <None Remove="assets/e6golflogo.png" />
+    <None Remove="assets/cart.png" />
+    <None Remove="assets/quarterbacks.png" />
+    <None Remove="assets/idra_gspro.png" />
+    <None Remove="assets/discgolf.png" />
+    <None Remove="resources/viewdatatemplates.baml" />
+    <None Remove="app.baml" />
+    <None Remove="assets/idra_calibration.png" />
+    <EmbeddedResource Include="sdCns1DhLbGpgK8YAD.pmfTOSXhcgAcLg2AhX" LogicalName="sdCns1DhLbGpgK8YAD.pmfTOSXhcgAcLg2AhX" />
+    <EmbeddedResource Include="views/supportwindow.baml" LogicalName="views/supportwindow.baml" />
+    <EmbeddedResource Include="assets/restartbuttonicon.png" LogicalName="assets/restartbuttonicon.png" />
+    <EmbeddedResource Include="assets/logozonegolfinblackbg.png" LogicalName="assets/logozonegolfinblackbg.png" />
+    <EmbeddedResource Include="assets/e6connect.png" LogicalName="assets/e6connect.png" />
+    <EmbeddedResource Include="assets/cornhole.png" LogicalName="assets/cornhole.png" />
+    <EmbeddedResource Include="assets/homebg.jpg" LogicalName="assets/homebg.jpg" />
+    <EmbeddedResource Include="assets/e6golf.png" LogicalName="assets/e6golf.png" />
+    <EmbeddedResource Include="assets/bg.jpg" LogicalName="assets/bg.jpg" />
+    <EmbeddedResource Include="views/wifipanel.baml" LogicalName="views/wifipanel.baml" />
+    <EmbeddedResource Include="assets/golf.png" LogicalName="assets/golf.png" />
+    <EmbeddedResource Include="assets/e6golf_zonegolfin.png" LogicalName="assets/e6golf_zonegolfin.png" />
+    <EmbeddedResource Include="logolauncherin.ico" LogicalName="logolauncherin.ico" />
+    <EmbeddedResource Include="assets/bowling.png" LogicalName="assets/bowling.png" />
+    <EmbeddedResource Include="views/mainwindow.baml" LogicalName="views/mainwindow.baml" />
+    <EmbeddedResource Include="assets/logozonegolfinwhitebg.png" LogicalName="assets/logozonegolfinwhitebg.png" />
+    <EmbeddedResource Include="assets/idra_zonegolfin.png" LogicalName="assets/idra_zonegolfin.png" />
+    <EmbeddedResource Include="assets/e6connectlogozone.png" LogicalName="assets/e6connectlogozone.png" />
+    <EmbeddedResource Include="assets/baseball3.png" LogicalName="assets/baseball3.png" />
+    <EmbeddedResource Include="views/passwordwindow.baml" LogicalName="views/passwordwindow.baml" />
+    <EmbeddedResource Include="assets/idra_e6connect.png" LogicalName="assets/idra_e6connect.png" />
+    <EmbeddedResource Include="views/spinnerwindow.baml" LogicalName="views/spinnerwindow.baml" />
+    <EmbeddedResource Include="assets/golfin.png" LogicalName="assets/golfin.png" />
+    <EmbeddedResource Include="assets/e6connect_zonegolfin.png" LogicalName="assets/e6connect_zonegolfin.png" />
+    <EmbeddedResource Include="views/settingswindow.baml" LogicalName="views/settingswindow.baml" />
+    <EmbeddedResource Include="assets/wildwest2.png" LogicalName="assets/wildwest2.png" />
+    <EmbeddedResource Include="views/containerview.baml" LogicalName="views/containerview.baml" />
+    <EmbeddedResource Include="assets/software_updates.png" LogicalName="assets/software_updates.png" />
+    <EmbeddedResource Include="assets/fieldgoalfrenzy.png" LogicalName="assets/fieldgoalfrenzy.png" />
+    <EmbeddedResource Include="assets/wildhunt.png" LogicalName="assets/wildhunt.png" />
+    <EmbeddedResource Include="assets/insideheat.png" LogicalName="assets/insideheat.png" />
+    <EmbeddedResource Include="assets/soccer.png" LogicalName="assets/soccer.png" />
+    <EmbeddedResource Include="views/softwareupdate.baml" LogicalName="views/softwareupdate.baml" />
+    <EmbeddedResource Include="assets/footgolf.png" LogicalName="assets/footgolf.png" />
+    <EmbeddedResource Include="views/golfinwebviewer.baml" LogicalName="views/golfinwebviewer.baml" />
+    <EmbeddedResource Include="views/touchnumerickeypad.baml" LogicalName="views/touchnumerickeypad.baml" />
+    <EmbeddedResource Include="assets/e6connectlogo.png" LogicalName="assets/e6connectlogo.png" />
+    <EmbeddedResource Include="views/maintenancewindow.baml" LogicalName="views/maintenancewindow.baml" />
+    <EmbeddedResource Include="assets/baseball.png" LogicalName="assets/baseball.png" />
+    <EmbeddedResource Include="assets/idra.png" LogicalName="assets/idra.png" />
+    <EmbeddedResource Include="assets/golfinlauncher.png" LogicalName="assets/golfinlauncher.png" />
+    <EmbeddedResource Include="assets/monstermayhem.png" LogicalName="assets/monstermayhem.png" />
+    <EmbeddedResource Include="assets/hockey.png" LogicalName="assets/hockey.png" />
+    <EmbeddedResource Include="readme.txt" LogicalName="readme.txt" />
+    <EmbeddedResource Include="assets/dodgeball.png" LogicalName="assets/dodgeball.png" />
+    <EmbeddedResource Include="assets/support.png" LogicalName="assets/support.png" />
+    <EmbeddedResource Include="assets/hoops.png" LogicalName="assets/hoops.png" />
+    <EmbeddedResource Include="assets/e6golflogo.png" LogicalName="assets/e6golflogo.png" />
+    <EmbeddedResource Include="assets/cart.png" LogicalName="assets/cart.png" />
+    <EmbeddedResource Include="assets/quarterbacks.png" LogicalName="assets/quarterbacks.png" />
+    <EmbeddedResource Include="assets/idra_gspro.png" LogicalName="assets/idra_gspro.png" />
+    <EmbeddedResource Include="assets/discgolf.png" LogicalName="assets/discgolf.png" />
+    <EmbeddedResource Include="resources/viewdatatemplates.baml" LogicalName="resources/viewdatatemplates.baml" />
+    <EmbeddedResource Include="app.baml" LogicalName="app.baml" />
+    <EmbeddedResource Include="assets/idra_calibration.png" LogicalName="assets/idra_calibration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="MahApps.Metro">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="CommunityToolkit.Mvvm">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/CommunityToolkit.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager" />
+    <Reference Include="GIToolkit">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/GIToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Core">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SoftwareUpgradeLoadingScreen">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/SoftwareUpgradeLoadingScreen.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>Sim Sports Corporation/GolfIn Launcher/Autofac.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

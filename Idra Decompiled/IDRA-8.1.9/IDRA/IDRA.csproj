@@ -1,0 +1,153 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>IDRA</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="YfYZFQO0IXCGOlpUYC.QE7QZn0bokWImiu2w4" />
+    <None Remove="views/postshot/postshotdetailedview.baml" />
+    <None Remove="views/spindatatableadjustmentview.baml" />
+    <None Remove="auxiliary/resources/postshotimages/irontopzoomlefty.png" />
+    <None Remove="views/camerastroubleshootingview.baml" />
+    <None Remove="auxiliary/resources/postshotimages/puttertop.png" />
+    <None Remove="auxiliary/resources/postshotimages/irontopzoom.png" />
+    <None Remove="auxiliary/resources/postshotimages/puttertopzoom.png" />
+    <None Remove="auxiliary/resources/postshotimages/irontoplefty.png" />
+    <None Remove="auxiliary/resources/postshotimages/ironsidelefty.png" />
+    <None Remove="auxiliary/resources/postshotimages/golfball.png" />
+    <None Remove="auxiliary/resources/postshotimages/drivertop.png" />
+    <None Remove="views/customshotview.baml" />
+    <None Remove="auxiliary/resources/postshotimages/ballimpact.png" />
+    <None Remove="auxiliary/resources/postshotimages/golfballposition.png" />
+    <None Remove="views/mainwindow.baml" />
+    <None Remove="auxiliary/resources/viewdatatemplates.baml" />
+    <None Remove="auxiliary/resources/postshotimages/play.png" />
+    <None Remove="views/passwordwindow.baml" />
+    <None Remove="auxiliary/resources/postshotimages/puttersidelefty.png" />
+    <None Remove="auxiliary/resources/postshotimages/irontop.png" />
+    <None Remove="auxiliary/resources/postshotimages/golf-bag.svg" />
+    <None Remove="auxiliary/resources/postshotimages/driversidelefty.png" />
+    <None Remove="auxiliary/resources/montserratfont/montserrat-regular.ttf" />
+    <None Remove="auxiliary/resources/postshotimages/drivertopzoomlefty.png" />
+    <None Remove="views/containerview.baml" />
+    <None Remove="auxiliary/resources/logoidrainverse.png" />
+    <None Remove="auxiliary/resources/postshotimages/drivertoplefty.png" />
+    <None Remove="views/shotregistrationview.baml" />
+    <None Remove="views/shared/gitxtimgtile.baml" />
+    <None Remove="auxiliary/resources/cameratroubleshooting/step2.png" />
+    <None Remove="auxiliary/resources/cameratroubleshooting/step3.png" />
+    <None Remove="auxiliary/resources/cameratroubleshooting/step1.png" />
+    <None Remove="views/postshot/postshothistoryview.baml" />
+    <None Remove="auxiliary/resources/postshotimages/putterside.png" />
+    <None Remove="auxiliary/resources/postshotimages/normalspeed.png" />
+    <None Remove="auxiliary/resources/postshotimages/ironside.png" />
+    <None Remove="auxiliary/resources/postshotimages/slowspeed.png" />
+    <None Remove="views/clubfacecorrectiondatatableadjustmentview.baml" />
+    <None Remove="auxiliary/resources/postshotimages/puttertoplefty.png" />
+    <None Remove="auxiliary/resources/postshotimages/spindirection.svg" />
+    <None Remove="auxiliary/resources/postshotimages/driverside.png" />
+    <None Remove="auxiliary/resources/postshotimages/puttertopzoomlefty.png" />
+    <None Remove="app.baml" />
+    <None Remove="views/postshot/postshotsettingsview.baml" />
+    <None Remove="views/shared/gicustommessage.baml" />
+    <None Remove="auxiliary/resources/postshotimages/drivertopzoom.png" />
+    <None Remove="auxiliary/resources/postshotimages/pause.png" />
+    <EmbeddedResource Include="YfYZFQO0IXCGOlpUYC.QE7QZn0bokWImiu2w4" LogicalName="YfYZFQO0IXCGOlpUYC.QE7QZn0bokWImiu2w4" />
+    <EmbeddedResource Include="views/postshot/postshotdetailedview.baml" LogicalName="views/postshot/postshotdetailedview.baml" />
+    <EmbeddedResource Include="views/spindatatableadjustmentview.baml" LogicalName="views/spindatatableadjustmentview.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/irontopzoomlefty.png" LogicalName="auxiliary/resources/postshotimages/irontopzoomlefty.png" />
+    <EmbeddedResource Include="views/camerastroubleshootingview.baml" LogicalName="views/camerastroubleshootingview.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/puttertop.png" LogicalName="auxiliary/resources/postshotimages/puttertop.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/irontopzoom.png" LogicalName="auxiliary/resources/postshotimages/irontopzoom.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/puttertopzoom.png" LogicalName="auxiliary/resources/postshotimages/puttertopzoom.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/irontoplefty.png" LogicalName="auxiliary/resources/postshotimages/irontoplefty.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/ironsidelefty.png" LogicalName="auxiliary/resources/postshotimages/ironsidelefty.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/golfball.png" LogicalName="auxiliary/resources/postshotimages/golfball.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/drivertop.png" LogicalName="auxiliary/resources/postshotimages/drivertop.png" />
+    <EmbeddedResource Include="views/customshotview.baml" LogicalName="views/customshotview.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/ballimpact.png" LogicalName="auxiliary/resources/postshotimages/ballimpact.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/golfballposition.png" LogicalName="auxiliary/resources/postshotimages/golfballposition.png" />
+    <EmbeddedResource Include="views/mainwindow.baml" LogicalName="views/mainwindow.baml" />
+    <EmbeddedResource Include="auxiliary/resources/viewdatatemplates.baml" LogicalName="auxiliary/resources/viewdatatemplates.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/play.png" LogicalName="auxiliary/resources/postshotimages/play.png" />
+    <EmbeddedResource Include="views/passwordwindow.baml" LogicalName="views/passwordwindow.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/puttersidelefty.png" LogicalName="auxiliary/resources/postshotimages/puttersidelefty.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/irontop.png" LogicalName="auxiliary/resources/postshotimages/irontop.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/golf-bag.svg" LogicalName="auxiliary/resources/postshotimages/golf-bag.svg" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/driversidelefty.png" LogicalName="auxiliary/resources/postshotimages/driversidelefty.png" />
+    <EmbeddedResource Include="auxiliary/resources/montserratfont/montserrat-regular.ttf" LogicalName="auxiliary/resources/montserratfont/montserrat-regular.ttf" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/drivertopzoomlefty.png" LogicalName="auxiliary/resources/postshotimages/drivertopzoomlefty.png" />
+    <EmbeddedResource Include="views/containerview.baml" LogicalName="views/containerview.baml" />
+    <EmbeddedResource Include="auxiliary/resources/logoidrainverse.png" LogicalName="auxiliary/resources/logoidrainverse.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/drivertoplefty.png" LogicalName="auxiliary/resources/postshotimages/drivertoplefty.png" />
+    <EmbeddedResource Include="views/shotregistrationview.baml" LogicalName="views/shotregistrationview.baml" />
+    <EmbeddedResource Include="views/shared/gitxtimgtile.baml" LogicalName="views/shared/gitxtimgtile.baml" />
+    <EmbeddedResource Include="auxiliary/resources/cameratroubleshooting/step2.png" LogicalName="auxiliary/resources/cameratroubleshooting/step2.png" />
+    <EmbeddedResource Include="auxiliary/resources/cameratroubleshooting/step3.png" LogicalName="auxiliary/resources/cameratroubleshooting/step3.png" />
+    <EmbeddedResource Include="auxiliary/resources/cameratroubleshooting/step1.png" LogicalName="auxiliary/resources/cameratroubleshooting/step1.png" />
+    <EmbeddedResource Include="views/postshot/postshothistoryview.baml" LogicalName="views/postshot/postshothistoryview.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/putterside.png" LogicalName="auxiliary/resources/postshotimages/putterside.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/normalspeed.png" LogicalName="auxiliary/resources/postshotimages/normalspeed.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/ironside.png" LogicalName="auxiliary/resources/postshotimages/ironside.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/slowspeed.png" LogicalName="auxiliary/resources/postshotimages/slowspeed.png" />
+    <EmbeddedResource Include="views/clubfacecorrectiondatatableadjustmentview.baml" LogicalName="views/clubfacecorrectiondatatableadjustmentview.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/puttertoplefty.png" LogicalName="auxiliary/resources/postshotimages/puttertoplefty.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/spindirection.svg" LogicalName="auxiliary/resources/postshotimages/spindirection.svg" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/driverside.png" LogicalName="auxiliary/resources/postshotimages/driverside.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/puttertopzoomlefty.png" LogicalName="auxiliary/resources/postshotimages/puttertopzoomlefty.png" />
+    <EmbeddedResource Include="app.baml" LogicalName="app.baml" />
+    <EmbeddedResource Include="views/postshot/postshotsettingsview.baml" LogicalName="views/postshot/postshotsettingsview.baml" />
+    <EmbeddedResource Include="views/shared/gicustommessage.baml" LogicalName="views/shared/gicustommessage.baml" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/drivertopzoom.png" LogicalName="auxiliary/resources/postshotimages/drivertopzoom.png" />
+    <EmbeddedResource Include="auxiliary/resources/postshotimages/pause.png" LogicalName="auxiliary/resources/postshotimages/pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="CommunityToolkit.Mvvm">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/CommunityToolkit.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="GICTSCore">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/GICTSCore.dll</HintPath>
+    </Reference>
+    <Reference Include="GIToolkit">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/GIToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ffme.win">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/ffme.win.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="LiveChartsCore.SkiaSharpView.WPF">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/LiveChartsCore.SkiaSharpView.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="IDRASharedModels">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/IDRASharedModels.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveChartsCore">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/LiveChartsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveChartsCore.SkiaSharpView">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/LiveChartsCore.SkiaSharpView.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Autofac.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

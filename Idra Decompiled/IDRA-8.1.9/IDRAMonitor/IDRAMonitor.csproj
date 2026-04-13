@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>IDRAMonitor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="I3fqvVA3sUPvFdVRxG.N6xD1eUfNYFjBjClv3" />
+    <None Remove="views/adminmenu.baml" />
+    <None Remove="views/manager-20settings/managersettingsmenu.baml" />
+    <None Remove="views/dynamicwizard.baml" />
+    <None Remove="views/manager-20settings/shotanalyzersettingsmenu.baml" />
+    <None Remove="views/manager-20settings/troubleshootmenu.baml" />
+    <None Remove="views/manager-20settings/gamesettingsmenu.baml" />
+    <None Remove="views/manager-20settings/visualsettingsmenu.baml" />
+    <None Remove="views/mainwindow.baml" />
+    <None Remove="auxiliary/resources/viewdatatemplates.baml" />
+    <None Remove="views/passwordwindow.baml" />
+    <None Remove="views/containerview.baml" />
+    <None Remove="views/manager-20settings/roundsettingsmenu.baml" />
+    <None Remove="views/optiondialog.baml" />
+    <None Remove="views/gsprooptionmenu.baml" />
+    <None Remove="app.baml" />
+    <EmbeddedResource Include="I3fqvVA3sUPvFdVRxG.N6xD1eUfNYFjBjClv3" LogicalName="I3fqvVA3sUPvFdVRxG.N6xD1eUfNYFjBjClv3" />
+    <EmbeddedResource Include="views/adminmenu.baml" LogicalName="views/adminmenu.baml" />
+    <EmbeddedResource Include="views/manager-20settings/managersettingsmenu.baml" LogicalName="views/manager%20settings/managersettingsmenu.baml" />
+    <EmbeddedResource Include="views/dynamicwizard.baml" LogicalName="views/dynamicwizard.baml" />
+    <EmbeddedResource Include="views/manager-20settings/shotanalyzersettingsmenu.baml" LogicalName="views/manager%20settings/shotanalyzersettingsmenu.baml" />
+    <EmbeddedResource Include="views/manager-20settings/troubleshootmenu.baml" LogicalName="views/manager%20settings/troubleshootmenu.baml" />
+    <EmbeddedResource Include="views/manager-20settings/gamesettingsmenu.baml" LogicalName="views/manager%20settings/gamesettingsmenu.baml" />
+    <EmbeddedResource Include="views/manager-20settings/visualsettingsmenu.baml" LogicalName="views/manager%20settings/visualsettingsmenu.baml" />
+    <EmbeddedResource Include="views/mainwindow.baml" LogicalName="views/mainwindow.baml" />
+    <EmbeddedResource Include="auxiliary/resources/viewdatatemplates.baml" LogicalName="auxiliary/resources/viewdatatemplates.baml" />
+    <EmbeddedResource Include="views/passwordwindow.baml" LogicalName="views/passwordwindow.baml" />
+    <EmbeddedResource Include="views/containerview.baml" LogicalName="views/containerview.baml" />
+    <EmbeddedResource Include="views/manager-20settings/roundsettingsmenu.baml" LogicalName="views/manager%20settings/roundsettingsmenu.baml" />
+    <EmbeddedResource Include="views/optiondialog.baml" LogicalName="views/optiondialog.baml" />
+    <EmbeddedResource Include="views/gsprooptionmenu.baml" LogicalName="views/gsprooptionmenu.baml" />
+    <EmbeddedResource Include="app.baml" LogicalName="app.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="MahApps.Metro">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="CommunityToolkit.Mvvm">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/CommunityToolkit.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="GICTSCore">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/GICTSCore.dll</HintPath>
+    </Reference>
+    <Reference Include="GIToolkit">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/GIToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="IDRASharedModels">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/IDRASharedModels.dll</HintPath>
+    </Reference>
+    <Reference Include="IDRA">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/IDRA.dll</HintPath>
+    </Reference>
+    <Reference Include="Osklib">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Osklib.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Storage.Blobs">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Azure.Storage.Blobs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager" />
+    <Reference Include="Autofac">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Autofac.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

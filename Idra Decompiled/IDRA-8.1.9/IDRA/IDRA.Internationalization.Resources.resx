@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="OfflineText" xml:space="preserve"><value>Offline</value></data>
+  <data name="BallSpeed" xml:space="preserve"><value>Ball Speed</value></data>
+  <data name="USBCableTroubleShootingToolTitle" xml:space="preserve"><value>USB cables troubleshooting tool</value></data>
+  <data name="ClubSpeedText" xml:space="preserve"><value>Club Speed</value></data>
+  <data name="LaunchAngle" xml:space="preserve"><value>Launch Angle</value></data>
+  <data name="PostShotUnit_Feet" xml:space="preserve"><value>Feets</value></data>
+  <data name="PostShotUnit_Yard" xml:space="preserve"><value>Yards</value></data>
+  <data name="Hybrid3" xml:space="preserve"><value>Hybrid 3</value></data>
+  <data name="Hybrid2" xml:space="preserve"><value>Hybrid 2</value></data>
+  <data name="Hybrid5" xml:space="preserve"><value>Hybrid 5</value></data>
+  <data name="Hybrid4" xml:space="preserve"><value>Hybrid 4</value></data>
+  <data name="DescentAngle" xml:space="preserve"><value>Descent Angle</value></data>
+  <data name="ClubSpeed" xml:space="preserve"><value>Club Speed</value></data>
+  <data name="BackSpin" xml:space="preserve"><value>Back Spin</value></data>
+  <data name="WarningMessageTroubleShootingTool" xml:space="preserve"><value>If you exit the troubleshooting tool, you will lose your game progression. Also, the problem may persist.</value></data>
+  <data name="LaunchAngleText" xml:space="preserve"><value>Launch Angle</value></data>
+  <data name="Center" xml:space="preserve"><value>Center</value></data>
+  <data name="SandWedge" xml:space="preserve"><value>S Wedge</value></data>
+  <data name="BallSpeedText" xml:space="preserve"><value>Ball Speed</value></data>
+  <data name="BallDirectionText" xml:space="preserve"><value>Ball Direction</value></data>
+  <data name="SmashFactorText" xml:space="preserve"><value>Smash Factor</value></data>
+  <data name="PerformingDeviceResetPleaseWait" xml:space="preserve"><value>Resetting the cameras... Please wait.</value></data>
+  <data name="ContinueText" xml:space="preserve"><value>Continue</value></data>
+  <data name="Putter" xml:space="preserve"><value>Putter</value></data>
+  <data name="CarryGame" xml:space="preserve"><value>Carry Game</value></data>
+  <data name="PostShot" xml:space="preserve"><value>Post Shot</value></data>
+  <data name="SmashFactor" xml:space="preserve"><value>Smash Factor</value></data>
+  <data name="SideSpin" xml:space="preserve"><value>Side Spin</value></data>
+  <data name="FaceAngle" xml:space="preserve"><value>Face Angle</value></data>
+  <data name="CancelText" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Unplug_both_USB_cable" xml:space="preserve"><value>Unplug both USB cable</value></data>
+  <data name="AdminOnly" xml:space="preserve"><value>Invalid admin pin</value></data>
+  <data name="ContinueTroubleshooting" xml:space="preserve"><value>Continue troubleshooting</value></data>
+  <data name="WarningTurnOnCameraLight" xml:space="preserve"><value>Please turn on your IDRA camera light and allow some time for the process to complete.</value></data>
+  <data name="Hybrid 7" xml:space="preserve"><value>Hybrid 7</value></data>
+  <data name="Hybrid 6" xml:space="preserve"><value>Hybrid 6</value></data>
+  <data name="Plug_them_back_into_USB" xml:space="preserve"><value>Plug them back into USB 3.0 ports and wait 30 seconds</value></data>
+  <data name="Toe" xml:space="preserve"><value>Toe</value></data>
+  <data name="Close" xml:space="preserve"><value> C</value></data>
+  <data name="InOut" xml:space="preserve"><value> I-O</value></data>
+  <data name="Iron9" xml:space="preserve"><value>Iron 9</value></data>
+  <data name="Iron8" xml:space="preserve"><value>Iron 8</value></data>
+  <data name="Iron7" xml:space="preserve"><value>Iron 7</value></data>
+  <data name="Iron6" xml:space="preserve"><value>Iron 6</value></data>
+  <data name="Iron5" xml:space="preserve"><value>Iron 5</value></data>
+  <data name="Iron4" xml:space="preserve"><value>Iron 4</value></data>
+  <data name="Iron3" xml:space="preserve"><value>Iron 3</value></data>
+  <data name="Iron2" xml:space="preserve"><value>Iron 2</value></data>
+  <data name="Iron1" xml:space="preserve"><value>Iron 1</value></data>
+  <data name="OutIn" xml:space="preserve"><value> O-I</value></data>
+  <data name="Wood6" xml:space="preserve"><value>Wood 6</value></data>
+  <data name="Wood7" xml:space="preserve"><value>Wood 7</value></data>
+  <data name="Wood4" xml:space="preserve"><value>Wood 4</value></data>
+  <data name="Wood5" xml:space="preserve"><value>Wood 5</value></data>
+  <data name="Wood2" xml:space="preserve"><value>Wood 2 </value></data>
+  <data name="Wood3" xml:space="preserve"><value>Wood 3</value></data>
+  <data name="Wood1" xml:space="preserve"><value>Driver</value></data>
+  <data name="Wood8" xml:space="preserve"><value>Wood 8</value></data>
+  <data name="Wood9" xml:space="preserve"><value>Wood 9</value></data>
+  <data name="Right" xml:space="preserve"><value> R</value></data>
+  <data name="PeakHeight" xml:space="preserve"><value>Peak Height</value></data>
+  <data name="SideSpinText" xml:space="preserve"><value>Side Spin</value></data>
+  <data name="GapWedge" xml:space="preserve"><value>G Wedge</value></data>
+  <data name="AvgText" xml:space="preserve"><value>AVG</value></data>
+  <data name="LaunchDirection" xml:space="preserve"><value>Launch Direction</value></data>
+  <data name="ClubPathText" xml:space="preserve"><value>Club Path</value></data>
+  <data name="EnterAdminPin" xml:space="preserve"><value>Admin Pin</value></data>
+  <data name="Wait_until_the_Continue" xml:space="preserve"><value>Repeat the operation until this window closes.</value></data>
+  <data name="FaceAngleText" xml:space="preserve"><value>Face Angle</value></data>
+  <data name="AreSureExitLooseProgressionWarning" xml:space="preserve"><value>Are you sure you want to exit ? You will lose your current game progression if so.</value></data>
+  <data name="BackSpinText" xml:space="preserve"><value>Back Spin</value></data>
+  <data name="ClubPath" xml:space="preserve"><value>Club Path</value></data>
+  <data name="History" xml:space="preserve"><value>History</value></data>
+  <data name="PitchingWedge" xml:space="preserve"><value>P Wedge</value></data>
+  <data name="LobWedge" xml:space="preserve"><value>L Wedge</value></data>
+  <data name="Warning" xml:space="preserve"><value>Warning</value></data>
+  <data name="Exit" xml:space="preserve"><value>Exit</value></data>
+  <data name="Open" xml:space="preserve"><value> O</value></data>
+  <data name="Left" xml:space="preserve"><value> L</value></data>
+  <data name="Heel" xml:space="preserve"><value>Heel</value></data>
+  <data name="Save" xml:space="preserve"><value>Save</value></data>
+  </root>

@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>GIToolkit</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="1E936YPVbg1K4EFjA1.Kdejh8EatEpJblfmTC" />
+    <None Remove="1rowuwS6MBOpKGOg5T.2NeU0vGdjVYs2bfZ2P" />
+    <EmbeddedResource Include="1E936YPVbg1K4EFjA1.Kdejh8EatEpJblfmTC" LogicalName="1E936YPVbg1K4EFjA1.Kdejh8EatEpJblfmTC" />
+    <EmbeddedResource Include="1rowuwS6MBOpKGOg5T.2NeU0vGdjVYs2bfZ2P" LogicalName="1rowuwS6MBOpKGOg5T.2NeU0vGdjVYs2bfZ2P" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager" />
+    <Reference Include="System.Diagnostics.EventLog">
+      <HintPath>../../../../.dotnet/shared/Microsoft.AspNetCore.App/8.0.25/System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Storage.Files.Shares">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Azure.Storage.Files.Shares.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Core">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Azure.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="PersistentObjectCache.net45">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/PersistentObjectCache.net45.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Graph">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.Graph.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Identity">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Azure.Identity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Graph.Core">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.Graph.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CommunityToolkit.Mvvm">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/CommunityToolkit.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Storage.Blobs">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Azure.Storage.Blobs.dll</HintPath>
+    </Reference>
+    <Reference Include="RichardSzalay.MockHttp">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/RichardSzalay.MockHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>Sim Sports Corporation/IDRA/8.1.9/System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
